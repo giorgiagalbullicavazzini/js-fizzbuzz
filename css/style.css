@@ -16,12 +16,34 @@ Container
 ============
 */
 
+body {
+  background-color: #083b4c;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .box {
-  height: 6.25rem;
-  width: 6.25em;
+  align-items: center;
+  aspect-ratio: 1;
+  background-color: #1389b2;
+  display: flex;
+  font-weight: 900;
+  justify-content: center;
+  margin: 10px;
+  width: calc(100% / 7 - 20px);
+}
+
+.fizzbuzz {
+  background-color: #f0466f;
+}
+
+.fizz {
+  background-color: #0cd6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
 }

@@ -13,20 +13,15 @@ for (let i = 1; i <= 100; i++) {
   // ELSE IF the number is a multiple of 5, the code prints "Buzz" and its background-color is yellow
   // ELSE the code prints the proper number and its background-color is blue
   if (i % 3 == 0 && i % 5 == 0) {
-    console.log('FizzBuzz');
     box.classList.add("fizzbuzz");
-    box.append('FizzBuzz');
+    box.append('fizzbuzz');
   } else if (i % 3 == 0) {
-    console.log('Fizz');
     box.classList.add("fizz");
-    box.append('Fizz');
+    box.append('fizz');
   } else if (i % 5 == 0) {
-    console.log('Buzz');
     box.classList.add("buzz");
-    box.append('Buzz');
+    box.append('buzz');
   } else {
-    console.log(i);
-    box.classList.add("index");
     box.append(i);
   }
 
