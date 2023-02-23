@@ -10,7 +10,7 @@
 ## Bonus 1
 
 - Creation of a HTML container;
-- Using the append() function, the code adds a HTML element to the container;
+- Using the `append()` function, the code adds a HTML element to the container;
 - This element contains the correct number or string;
 - Using the `for` statement, the code adds all the numbers between 1 and 100 to the container;
 
