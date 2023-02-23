@@ -3,9 +3,9 @@
 ## Milestone 1
 
 - Using the `for` statement, the code creates a loop and prints in console the numbers between 1 and 100;
-- IF the number is a multiple of 3, the code prints "Fizz" instead;
+- IF the number is a multiple of 3 AND a multiple of 5, the code prints "FizzBuzz" instead;
 - ELSE IF the number is a multiple of 5, the code prints "Buzz";
-- ELSE IF the number is a multiple of 3 AND a multiple of 5, the code prints "FizzBuzz";
+- ELSE IF the number is a multiple of 3, the code prints "Fizz";
 
 ## Bonus 1
 
