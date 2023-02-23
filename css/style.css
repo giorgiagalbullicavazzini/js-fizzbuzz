@@ -18,11 +18,15 @@ Container
 
 body {
   background-color: #083b4c;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+  width: 80%;
 }
 
 .box {
@@ -30,20 +34,34 @@ body {
   aspect-ratio: 1;
   background-color: #1389b2;
   display: flex;
-  font-weight: 900;
+  font-size: 1.25rem;
+  font-weight: 500;
   justify-content: center;
-  margin: 10px;
-  width: calc(100% / 7 - 20px);
+  margin: .625rem;
+  width: calc(100% / 7 - 1.25rem);
 }
 
-.fizzbuzz {
+.box.fizzbuzz {
   background-color: #f0466f;
 }
 
-.fizz {
+.box.fizz {
   background-color: #0cd6a1;
 }
 
-.buzz {
+.box.buzz {
   background-color: #ffd166;
+}
+
+/*
+============
+Typo
+============
+*/
+
+h1 {
+  color: #ffffff;
+  font-size: 5rem;
+  margin: 3.125rem 0;
+  text-align: center;
 }
