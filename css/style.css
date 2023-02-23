@@ -20,3 +20,8 @@ Container
   display: flex;
   flex-wrap: wrap;
 }
+
+.box {
+  height: 6.25rem;
+  width: 6.25em;
+}
