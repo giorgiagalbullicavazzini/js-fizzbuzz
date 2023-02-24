@@ -1,10 +1,11 @@
 'use strict';
 
+const container = document.querySelector('.container');
+
 // Using the `for` statement, the code creates a loop and prints in console the numbers between 1 and 100
 for (let i = 1; i <= 100; i++) {
   // Using the `append()` function, the code adds a HTML element to the container
   // This element contains the correct number or string
-  const container = document.querySelector('.container');
   const box = document.createElement('div');
 
   // Using the same `for` statement, the code applies different styles to the elements
